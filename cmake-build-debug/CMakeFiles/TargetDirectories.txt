@@ -1,0 +1,3 @@
+/home/upgautamvt/CLionProjects/gprof/cmake-build-debug/CMakeFiles/gprof.dir
+/home/upgautamvt/CLionProjects/gprof/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/upgautamvt/CLionProjects/gprof/cmake-build-debug/CMakeFiles/rebuild_cache.dir

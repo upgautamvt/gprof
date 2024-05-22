@@ -1,0 +1,4 @@
+gcc -Wall -pg test_gprof.c test_gprof_new.c -o test_gprof
+upgautamvt@fedora:~/CLionProjects/gprof$ ./test_gprof
+    produces gmon.out
+
