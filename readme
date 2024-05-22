@@ -2,3 +2,24 @@ gcc -Wall -pg test_gprof.c test_gprof_new.c -o test_gprof
 upgautamvt@fedora:~/CLionProjects/gprof$ ./test_gprof
     produces gmon.out
 
+
+
+gprof is based on sampling.
+    compile time instrumentation
+    static profiling
+    user-level profiling
+    works on function-level (determines which functions consume the most CPU time and how they are called and they used memory)
+Dtrace is based on probes (i.e., instrumentation points).
+    runtime instrumentation, therefore, more flexibility
+    dynamic tracing
+ftrace
+    dynamic tracing
+    runtime instrumentation
+    kernel's function level profiling: ftrace focuses on kernel-level profiling and debugging, providing insights into kernel function execution, latency, and system behavior. It allows users to trace specific kernel functions, analyze system calls,
+        interrupts, and scheduler events.
+perf
+    dynamic profiling and tracing
+    system-wide profiling
+    event-based profiling
+    sampling profiling
+    kernel and user-space tracing
